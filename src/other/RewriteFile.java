@@ -1,9 +1,10 @@
-import com.sun.xml.internal.ws.util.StringUtils;
+package other;
+
 
 import java.io.*;
 import java.util.Objects;
 
-public class Main {
+public class RewriteFile {
     public static void main(String[] args) throws IOException {
         File file = new File("/Users/logic/Desktop/未命名文件夹");
         processFile(file);
